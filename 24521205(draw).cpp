@@ -32,16 +32,16 @@ system("cls");
 
     for (int i = 0; i < cao; i++) {
         for (int j = 0; j < rong; j++) {
-            if (j == 0) cout << "#"; // biên trái
+            if (j == 0) cout << "#"; 
 
             if (i == y && j == x)
-                cout << "O"; // đầu rắn
+                cout << "O"; 
             else if (i == fruity && j == fruitx)
-                cout << "*"; // thức ăn
+                cout << "*"; 
             else
-                cout << " "; // khoảng trống
+                cout << " "; 
 
-            if (j == rong - 1) cout << "#"; // biên phải
+            if (j == rong - 1) cout << "#"; 
         }
         cout << endl;
     }
@@ -79,3 +79,4 @@ int main()
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
